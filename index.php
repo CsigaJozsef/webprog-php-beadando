@@ -27,10 +27,10 @@
     <h1>IKémon > Home</h1>
 
     <div class="all-cards">
-        <?php foreach($pokemons as $pokemon): ?>
-            <div style="border: 2px <?= $colors[$pokemon["type"]] ?> solid;">
+        <?php foreach($pokemons as $cardId => $pokemon): ?>
+            <div id="<?= $cardId ?>" style="border: 2px <?= $colors[$pokemon["type"]] ?> solid;" >
                 <img src="<?= $pokemon["image"] ?>" style="background-color: <?= $colors[$pokemon["type"]] ?>;" alt="">
-                <h4><?= $pokemon["name"] ?></h4>
+                <a href="php/card-details.php?cardId=<?= $cardId ?>"><h4><?= $pokemon["name"] ?></h4></a>
                 <p>type: <?= $pokemon["type"] ?></p>
                 <span>
                     hp: <?= $pokemon["hp"] ?> 

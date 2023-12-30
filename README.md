@@ -9,8 +9,8 @@ ELTE Hallgatói Követelményrendszer, IK kari különös rész, 377/A. §: "Az 
 
 ### Minimálisan teljesítendő (enélkül nem fogadjuk el, 6 pont)
 - [ ] `0.0 pont` Readme.md fájl: kitöltve, feltöltve
-- [ ] `0.0 pont` Főoldal: megjelenik
-- [ ] `1.0 pont` Főoldal: összes kártya listázása, pl. képekkel
+- [x] `0.0 pont` Főoldal: megjelenik
+- [x] `1.0 pont` Főoldal: összes kártya listázása, pl. képekkel
 - [ ] `1.0 pont` Főoldal: a kártya nevére kattintva a megfelelő kártya részletek oldalra jutunk
 - [ ] `1.0 pont` Kártya részletek: Megjelenik a kártyán szereplő szörny neve, életereje, leírása és eleme
 - [ ] `0.5 pont` Kártya részletek: Megjelenik a kártyához tartozó kép
