@@ -31,11 +31,11 @@
             <div id="<?= $cardId ?>" style="border: 2px <?= $colors[$pokemon["type"]] ?> solid;" >
                 <img src="<?= $pokemon["image"] ?>" style="background-color: <?= $colors[$pokemon["type"]] ?>;" alt="">
                 <a href="php/card-details.php?cardId=<?= $cardId ?>"><h4><?= $pokemon["name"] ?></h4></a>
-                <p>type: <?= $pokemon["type"] ?></p>
+                <p>🏷️ <?= $pokemon["type"] ?></p>
                 <span>
-                    hp: <?= $pokemon["hp"] ?> 
-                    attack: <?= $pokemon["attack"] ?>
-                    defense: <?= $pokemon["defense"] ?>
+                    ❤️ <?= $pokemon["hp"] ?> 
+                    ⚔️ <?= $pokemon["attack"] ?>
+                    🛡️ <?= $pokemon["defense"] ?>
                 </span><br>
                 <button style="background-color: <?= $colors[$pokemon["type"]] ?>;"> <?= $pokemon["price"] ?> </button>
             </div>

@@ -1,0 +1,50 @@
+img{
+    max-width: 10rem;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+}
+
+.data-sheet{
+    background-color: #EEEEDD;
+    width: 75%;
+    margin: auto;
+    margin-top: 3rem;
+    border-radius: 20px;
+    font-size: 2.2rem;
+
+}
+
+.data-sheet-header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.data-sheet-info{
+    margin: 4rem;
+    display: flex;
+}
+
+.data-sheet-info > ul{
+    width: 30%;
+    margin: 1rem;
+    border-right: black 1px solid;
+}
+
+.data-sheet-info > p{
+    width: 70%;
+    margin: 0.5rem;
+}
+
+@counter-style stat-symbols {
+    system: cyclic;
+    symbols: 🏷️ ❤️ ⚔️ 🛡️;
+    suffix: " ";
+}
+
+.card-attributes{
+    list-style-type: stat-symbols;
+}

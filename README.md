@@ -8,13 +8,13 @@ Kijelentem, hogy ez a megoldás a saját munkám. Nem másoltam vagy használtam
 ELTE Hallgatói Követelményrendszer, IK kari különös rész, 377/A. §: "Az a hallgató, aki olyan tanulmányi teljesítménymérés (vizsga, zárthelyi, beadandó feladat) során, amelynek keretében számítógépes program vagy programmodul elkészítése a feladat, az oktató által meghatározottakon kívül más segédeszközt vesz igénybe, illetve más hallgatónak meg nem engedett segítséget nyújt, tanulmányi szabálytalanságot követ el, ezért az adott félévben a tantárgyat nem teljesítheti és a tantárgy kreditjét nem szerezheti meg."
 
 ### Minimálisan teljesítendő (enélkül nem fogadjuk el, 6 pont)
-- [ ] `0.0 pont` Readme.md fájl: kitöltve, feltöltve
+- [x] `0.0 pont` Readme.md fájl: kitöltve, feltöltve
 - [x] `0.0 pont` Főoldal: megjelenik
 - [x] `1.0 pont` Főoldal: összes kártya listázása, pl. képekkel
-- [ ] `1.0 pont` Főoldal: a kártya nevére kattintva a megfelelő kártya részletek oldalra jutunk
-- [ ] `1.0 pont` Kártya részletek: Megjelenik a kártyán szereplő szörny neve, életereje, leírása és eleme
-- [ ] `0.5 pont` Kártya részletek: Megjelenik a kártyához tartozó kép
-- [ ] `0.5 pont` Kártya részletek: A kártyán szereplő szörny eleme szerint változik az oldalon egy vagy több elem színe vagy háttérszíne, pl.: Fire esetén piros, Lightning esetén sárga, stb.
+- [x] `1.0 pont` Főoldal: a kártya nevére kattintva a megfelelő kártya részletek oldalra jutunk
+- [x] `1.0 pont` Kártya részletek: Megjelenik a kártyán szereplő szörny neve, életereje, leírása és eleme
+- [x] `0.5 pont` Kártya részletek: Megjelenik a kártyához tartozó kép
+- [x] `0.5 pont` Kártya részletek: A kártyán szereplő szörny eleme szerint változik az oldalon egy vagy több elem színe vagy háttérszíne, pl.: Fire esetén piros, Lightning esetén sárga, stb.
 - [ ] `2.0 pont` Admin: Új kártya létrehozása: hibakezelés, sikeres mentés
 
 
