@@ -24,7 +24,13 @@
     <title>IKémon</title>
 </head>
 <body>
-    <h1>IKémon > Home</h1>
+
+    <div class="menu">
+        <h1>IKémon > Home</h1>
+        <a href="php/login.php"><h4>login/sign up</h4></a>
+    </div>
+
+    <hr>
 
     <div class="all-cards">
         <?php foreach($pokemons as $cardId => $pokemon): ?>
