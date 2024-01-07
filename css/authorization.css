@@ -1,0 +1,35 @@
+form {
+    width: 30%;
+    margin: auto;
+    margin-top: 8rem;
+    padding: 2rem;
+    border-radius: 20px;
+    background-color: lightgray;
+}
+
+form>input {
+    width: 75%;
+}
+
+/* unvisited link */
+a:link {
+    color: #996699;
+    text-decoration: underline;
+}
+
+/* visited link */
+a:visited {
+    color: #996699;
+    text-decoration: underline;
+}
+
+div {
+    width: 40%;
+    margin: auto;
+    color: red;
+    margin-top: 8rem;
+    padding: 2rem;
+    font-size: 2rem;
+    border-radius: 20px;
+    background-color: lightgray;
+}

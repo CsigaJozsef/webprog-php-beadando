@@ -19,14 +19,14 @@ ELTE Hallgatói Követelményrendszer, IK kari különös rész, 377/A. §: "Az 
 
 
 ### Az alap feladatok (14 pont)
-- [ ] `0.5 pont` Regisztrációs űrlap: Megfelelő elemeket tartalmazza
-- [ ] `0.5 pont` Regisztrációs űrlap: Hibás esetek kezelése, hibaüzenet, állapottartás
-- [ ] `0.5 pont` Regisztrációs űrlap: Sikeres regisztráció
-- [ ] `0.5 pont` Bejelentkezés: Hibás esetek kezelése
-- [ ] `0.5 pont` Bejelentkezés: Sikeres bejelentkezés
-- [ ] `0.5 pont` Kijelentkezés
-- [ ] `0.5 pont` Főoldal: Megjelenik a felhasználó neve és pénze
-- [ ] `0.5 pont` Főoldal: A felhasználónévre kattintva a felhasználó részletei oldalra jutunk
+- [x] `0.5 pont` Regisztrációs űrlap: Megfelelő elemeket tartalmazza
+- [x] `0.5 pont` Regisztrációs űrlap: Hibás esetek kezelése, hibaüzenet, állapottartás
+- [x] `0.5 pont` Regisztrációs űrlap: Sikeres regisztráció
+- [x] `0.5 pont` Bejelentkezés: Hibás esetek kezelése
+- [x] `0.5 pont` Bejelentkezés: Sikeres bejelentkezés
+- [x] `0.5 pont` Kijelentkezés
+- [x] `0.5 pont` Főoldal: Megjelenik a felhasználó neve és pénze
+- [x] `0.5 pont` Főoldal: A felhasználónévre kattintva a felhasználó részletei oldalra jutunk
 - [ ] `1.0 pont` Főoldal: Lehessen a kártyákat típus szerint szűrni.
 - [ ] `0.5 pont` Felhasználó részletek: Megjelenik a felhasználó neve, e-mail címe, pénze
 - [ ] `0.5 pont` Felhasználó részletek: Megjelennek a felhasználóhoz tartozó kártyák

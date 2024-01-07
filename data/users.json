@@ -1,0 +1,9 @@
+{
+    "admin": {
+        "username": "admin",
+        "email": "aaa@kaka.com",
+        "password": "$2y$10$f\/SgFZRGfAWJw1Tw9gdLBOvPERaI8dvM3RVcXu59apjaJFaVelhDy",
+        "money": 500,
+        "cards": []
+    }
+}

@@ -1,5 +1,7 @@
 <?php
 
+session_start();
+
     $colors = [
         'electric' => '#ede137',
         'fire' => '#f2445b',
@@ -11,7 +13,7 @@
     ];
 
     $pokemons = json_decode(file_get_contents("data/ikemon.json"), true);
-
+    $users = json_decode(file_get_contents("data/users.json"), true);
 
 ?>
 
@@ -20,6 +22,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/main-style.css">
     <title>IKémon</title>
 </head>
@@ -27,7 +30,12 @@
 
     <div class="menu">
         <h1>IKémon > Home</h1>
-        <a href="php/login.php"><h4>login/sign up</h4></a>
+        <?php if(!isset($_SESSION["type"]) or $_SESSION["type"] == ""):?>
+            <a href="php/login.php"><h4>login/sign up</h4></a>
+        <?php else:?>
+            <a href="php/user-details.php"><h4><?= $_SESSION["username"] ?>: balance = <?= $users[$_SESSION["username"]]["money"] ?>C</h4></a>
+            <a href="php/logout.php"><h4>logout</h4></a>
+        <?php endif; ?> 
     </div>
 
     <hr>
