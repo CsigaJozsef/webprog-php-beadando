@@ -33,6 +33,9 @@ session_start();
         <?php if(!isset($_SESSION["type"]) or $_SESSION["type"] == ""):?>
             <a href="php/login.php"><h4>login/sign up</h4></a>
         <?php else:?>
+            <?php if($_SESSION["type"] == "admin"):?>
+                <a href="php/new-card.php"><h4>add new card</h4></a>
+            <?php endif; ?>
             <a href="php/user-details.php"><h4><?= $_SESSION["username"] ?>: balance = <?= $users[$_SESSION["username"]]["money"] ?>C</h4></a>
             <a href="php/logout.php"><h4>logout</h4></a>
         <?php endif; ?> 

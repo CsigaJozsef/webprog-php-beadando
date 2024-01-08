@@ -4,7 +4,7 @@ form {
     margin-top: 8rem;
     padding: 2rem;
     border-radius: 20px;
-    background-color: lightgray;
+    background-color: #EEEEDD;
 }
 
 form>input {
@@ -31,5 +31,5 @@ div {
     padding: 2rem;
     font-size: 2rem;
     border-radius: 20px;
-    background-color: lightgray;
+    background-color: #EEEEDD;
 }

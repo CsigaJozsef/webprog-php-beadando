@@ -5,5 +5,19 @@
         "password": "$2y$10$f\/SgFZRGfAWJw1Tw9gdLBOvPERaI8dvM3RVcXu59apjaJFaVelhDy",
         "money": 500,
         "cards": []
+    },
+    "": {
+        "username": "",
+        "email": "",
+        "password": "$2y$10$5f0pApiGAfR\/MEWNy5J2Ke2j3JPj4TaQ8VVKLNuErbXB0PPvlibX6",
+        "money": 500,
+        "cards": []
+    },
+    "sanyu": {
+        "username": "sanyu",
+        "email": "fos@gmail.com",
+        "password": "$2y$10$7NbM88OAL2.1zHmwIAE1ruFE.T3OqT3OTVbFcW6tA2TQ.a\/yg2sU6",
+        "money": 500,
+        "cards": []
     }
 }

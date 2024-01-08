@@ -4,7 +4,7 @@ session_start();
 
 $username = $_POST['username'] ?? '';
 $password = $_POST['password'] ?? '';
-$password = $_POST['password-again'] ?? '';
+$password_again = $_POST['password-again'] ?? '';
 $email = $_POST['email'] ?? '';
 
 $errors = [];
@@ -51,7 +51,7 @@ if (count($errors) == 0) {
 
         file_put_contents('../data/users.json', json_encode($reg, JSON_PRETTY_PRINT));
         $success = true;
-        echo($password);
+        // echo($password);
     }
 }
 
