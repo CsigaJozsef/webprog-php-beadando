@@ -44,7 +44,8 @@ session_start();
     <hr>
 
     <div class="all-cards">
-        <?php foreach($pokemons as $cardId => $pokemon): ?>
+        <?php foreach($users["admin"]["cards"] as $cardId): ?>
+            <?php $pokemon = $pokemons[$cardId]; ?>
             <div id="<?= $cardId ?>" style="border: 2px <?= $colors[$pokemon["type"]] ?> solid;" >
                 <img src="<?= $pokemon["image"] ?>" style="background-color: <?= $colors[$pokemon["type"]] ?>;" alt="">
                 <a href="php/card-details.php?cardId=<?= $cardId ?>"><h4><?= $pokemon["name"] ?></h4></a>

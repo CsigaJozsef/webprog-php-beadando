@@ -4,14 +4,20 @@
         "email": "aaa@kaka.com",
         "password": "$2y$10$f\/SgFZRGfAWJw1Tw9gdLBOvPERaI8dvM3RVcXu59apjaJFaVelhDy",
         "money": 500,
-        "cards": []
-    },
-    "": {
-        "username": "",
-        "email": "",
-        "password": "$2y$10$5f0pApiGAfR\/MEWNy5J2Ke2j3JPj4TaQ8VVKLNuErbXB0PPvlibX6",
-        "money": 500,
-        "cards": []
+        "cards": [
+            "card0",
+            "card1",
+            "card2",
+            "card3",
+            "card4",
+            "card5",
+            "card6",
+            "card7",
+            "card8",
+            "card9",
+            "card10",
+            "card11"
+        ]
     },
     "sanyu": {
         "username": "sanyu",

@@ -1,52 +1,53 @@
-
-body{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.2rem;
-    background-color: #3e3e42;
+body {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1.2rem;
+  background-color: #3e3e42;
 }
 
-h1{
-    color: #EEEEDD;
+h1 {
+  color: #EEEEDD;
 }
 
-h4, p, span{
-    margin: 10px;
+h4,
+p,
+span {
+  margin: 10px;
 }
 
-h4{
-    text-align: center;
+h4 {
+  text-align: center;
 }
 
- /* unvisited link */
- a:link {
-    color: black;
-    text-decoration: none;
-  }
-  
-  /* visited link */
-  a:visited {
-    color: black;
-    text-decoration: none;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: #77777b;
-    text-decoration: underline;
-  }
-  
-  /* selected link */
-  a:active {
-    color: #99999d;
-  } 
-
-img{
-    width: 100%;
-    border-radius: 17px;
+/* unvisited link */
+a:link {
+  color: black;
+  text-decoration: none;
 }
 
-hr{
-    margin-bottom: 2.8rem;
-    width: 100%;
-    border: 0.15rem #EEEEDD solid;
+/* visited link */
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #77777b;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: #99999d;
+}
+
+img {
+  width: 100%;
+  border-radius: 17px;
+}
+
+hr {
+  margin-bottom: 2.8rem;
+  width: 100%;
+  border: 0.15rem #EEEEDD solid;
 }

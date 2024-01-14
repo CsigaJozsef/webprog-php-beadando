@@ -33,26 +33,25 @@ if (count($_POST) > 0) {
 
     $errors = array_map(fn($e) => "<span style='color: red'>$e</span>", $errors);
 
-}
+    if (count($errors) == 0) {
 
-
-if (count($errors) == 0) {
-
-    $reg = json_decode(file_get_contents('../data/users.json'), true);
-
-    if (!isset($reg[$username])) {
-        $reg[$username] = [
-            'username' => $username,
-            'email' => $email,
-            'password' => password_hash($password, PASSWORD_DEFAULT),
-            'money' => 500,
-            'cards' => []
-        ];
-
-        file_put_contents('../data/users.json', json_encode($reg, JSON_PRETTY_PRINT));
-        $success = true;
-        // echo($password);
+        $reg = json_decode(file_get_contents('../data/users.json'), true);
+    
+        if (!isset($reg[$username])) {
+            $reg[$username] = [
+                'username' => $username,
+                'email' => $email,
+                'password' => password_hash($password, PASSWORD_DEFAULT),
+                'money' => 500,
+                'cards' => []
+            ];
+    
+            file_put_contents('../data/users.json', json_encode($reg, JSON_PRETTY_PRINT));
+            $success = true;
+            // echo($password);
+        }
     }
+
 }
 
 // var_dump($errors);
@@ -103,6 +102,9 @@ if ($success){
                 <p>You are alredy logged in!<br> Logout before trying to login again!</p>
             </div>
         <?php endif; ?> 
+
+    <div class="home-link"><a href="../index.php">Whoopsie, let's go back (home page)</a></div>
+
 </body>
 
 </html>

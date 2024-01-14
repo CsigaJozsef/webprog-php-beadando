@@ -43,7 +43,7 @@ if ($match){
     
 }
 
-var_dump($_SESSION["type"])
+// var_dump($_SESSION["type"])
 
 ?>
 
@@ -77,6 +77,9 @@ var_dump($_SESSION["type"])
     <?php if(!$match && isset($_POST["password"])):?>
         <div><h4>Hibás felhasználónév vagy jelszó!</h4></div>
     <?php endif;?>
+
+    <div class="home-link"><a href="../index.php">Whoopsie, let's go back (home page)</a></div>
+
 </body>
 </html>
 
