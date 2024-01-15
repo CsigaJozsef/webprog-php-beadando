@@ -1,5 +1,8 @@
 <?php
 
+// admin username: admin
+// admin password: kakakakakaka123
+
 session_start();
 
     $colors = [
