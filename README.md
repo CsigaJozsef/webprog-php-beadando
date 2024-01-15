@@ -28,8 +28,8 @@ ELTE Hallgatói Követelményrendszer, IK kari különös rész, 377/A. §: "Az 
 - [x] `0.5 pont` Főoldal: Megjelenik a felhasználó neve és pénze
 - [x] `0.5 pont` Főoldal: A felhasználónévre kattintva a felhasználó részletei oldalra jutunk
 - [ ] `1.0 pont` Főoldal: Lehessen a kártyákat típus szerint szűrni.
-- [ ] `0.5 pont` Felhasználó részletek: Megjelenik a felhasználó neve, e-mail címe, pénze
-- [ ] `0.5 pont` Felhasználó részletek: Megjelennek a felhasználóhoz tartozó kártyák
+- [x] `0.5 pont` Felhasználó részletek: Megjelenik a felhasználó neve, e-mail címe, pénze
+- [x] `0.5 pont` Felhasználó részletek: Megjelennek a felhasználóhoz tartozó kártyák
 - [ ] `2.0 pont` Felhasználó részletek: A felhasználó kártyái mellett megjelenik egy eladás gomb, amivel a felhasználó el tudja adni az adott kártyát, ekkor törlődik a kártyái közül az eladott lap és megkapja a kártya árának 90%-át. Az eladott lap visszakerül az ADMIN paklijába. (Azt hogy az eladás gombot hova helyezed és hogyan valósítod meg rád van bízva)
 - [x] `0.5 pont` Admin: Be lehet jelentkezni az admin felhasználó adataival
 - [x] `0.5 pont` Admin: Új kártya létrehozása csak Admin felhasználóval érhető el
@@ -37,7 +37,7 @@ ELTE Hallgatói Követelményrendszer, IK kari különös rész, 377/A. §: "Az 
 - [ ] `1.5 pont` Főoldal (Vásárlás): Meg tudja venni a kártyát
 - [ ] `0.5 pont` Főoldal (Vásárlás): Csak annyit tud venni amennyi pénze van
 - [ ] `0.5 pont` Főoldal (Vásárlás): Legfeljebb 5 kártyája lehet
-- [ ] `1.0 pont` Igényes kialakítás
+- [x] `1.0 pont` Igényes kialakítás
 
 ### Plusz feladatok (max plusz 5 pont)
 - [ ] `0.5 pont` Admin: Kártya módosítása: admin felhasználóval elérhető, még el nem adott kártyák esetén

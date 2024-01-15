@@ -16,13 +16,21 @@
             "card8",
             "card9",
             "card10",
-            "card11"
+            "card11",
+            "card12"
         ]
     },
     "sanyu": {
         "username": "sanyu",
         "email": "fos@gmail.com",
         "password": "$2y$10$7NbM88OAL2.1zHmwIAE1ruFE.T3OqT3OTVbFcW6tA2TQ.a\/yg2sU6",
+        "money": 500,
+        "cards": []
+    },
+    "b\u00e9la": {
+        "username": "b\u00e9la",
+        "email": "ajjajj@gmail.com",
+        "password": "$2y$10$wbKdALev74DBeJuA1HItxuuX7yi6fs\/75voAKTWLdvOnItZKDSNYC",
         "money": 500,
         "cards": []
     }

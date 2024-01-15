@@ -12,24 +12,33 @@ $success = false;
 
 if (count($_POST) > 0) {
 
-    if (trim($username) === '')
+    if (trim($username) === ''){
         $errors['username'] = "A username kitöltése kötelező";
-    else if (strlen($username) < 4)
+    }
+    else if (strlen($username) < 4){
         $errors['username'] = "A username legalább 4 karakter kell, hogy legyen!";
+    }
 
-    if (trim($email) === '')
+    if (trim($email) === ''){
         $errors['email'] = "Az email kitöltése kötelező";
-    else if (!filter_var($email, FILTER_VALIDATE_EMAIL))
+    }
+    else if (!filter_var($email, FILTER_VALIDATE_EMAIL)){
         $errors['email'] = "Addj valid emailcímet";
+    }
 
-    if (trim($password) === '')
+    if (trim($password) === ''){
         $errors['password'] = "A password kitöltése kötelező";
-    else if (strlen($password) < 12)
+    }
+    else if (strlen($password) < 12){
         $errors['password'] = "A password legalább 12 karakter kell, hogy legyen!";
-    else if (!hasNumber($password))
+    }
+    else if (!hasNumber($password)){
         $errors['password'] = "A password kell, hogy tartalmazzon számokat!";
-    else if (!strcmp($password, $password_again))
+    }
+    else if (0 !== strcmp($password, $password_again)){
+        echo($password.", ".$password_again);
         $errors['password'] = "A password és a password-again meg kell egyezzen!";
+    }
 
     $errors = array_map(fn($e) => "<span style='color: red'>$e</span>", $errors);
 

@@ -118,5 +118,15 @@
         "price": 252,
         "description": "jaskdfjalsdfjl",
         "image": "https:\/\/assets.pokemon.com\/assets\/cms2\/img\/pokedex\/full\/255.png"
+    },
+    "card12": {
+        "name": "puya",
+        "type": "normal",
+        "hp": 43,
+        "attack": 23,
+        "defense": 11,
+        "price": 231,
+        "description": "sdlgkjasldghaskjla",
+        "image": "https:\/\/i.pinimg.com\/564x\/68\/09\/ab\/6809ab885ff3878a939bd307cfbfec2d.jpg"
     }
 }

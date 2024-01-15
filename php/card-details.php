@@ -24,7 +24,7 @@ $pokemon_details = $pokemons_data[$_GET["cardId"]];
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/card-detail.css">
+    <link rel="stylesheet" href="../css/detail.css">
     <title><?= $pokemon_details["name"] ?></title>
 </head>
 <body bgColor="<?= $colors[$pokemon_details["type"]] ?>">
